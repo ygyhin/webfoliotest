@@ -1,0 +1,98 @@
+body {
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    height: 40vh; /* Ensure the body has a height */
+}
+
+.header-background {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://sb.ecobnb.net/app/uploads/sites/3/2022/04/copertina-1-1170x490.jpg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: brightness(50%);
+}
+
+.header {
+    position: absolute;
+    z-index: 2;
+    left: -10%;
+    text-align: center;
+    font-size: 7em;
+    text-decoration: underline;
+    line-height: -50;
+    width:120%;
+    filter: brightness(90%);
+}
+
+
+
+.about {
+    font-size: 3em;
+    position: absolute;
+    bottom: -220px;
+    left:50px;
+    text-decoration: underline;
+    color: #B0E0E6;
+}
+
+
+
+h3 {
+    font-size: 1.5em;
+    position: absolute;
+    bottom: -280px;
+    left: 50px;
+    color: #ADD8E6;
+}
+
+
+
+ul {
+    font-size: 1.8em;
+    position: absolute;
+    bottom: -680px;
+    left: 18px;
+}
+
+
+
+li:hover {
+    color: cyan;
+}
+
+li:last-child:hover {
+    color: #00ff00;
+
+}
+
+li {
+
+     margin-bottom: 50px;
+     margin-left: 5px;
+     text-align: left;
+
+    }
+
+.last{
+    color: #333;
+}
+
+.project{
+
+    font-size:3em;
+    position: absolute;
+    bottom: -220px;
+    right:70px;
+    text-decoration: underline;
+    color: #B0E0E6;
+
+
+
+}
+
