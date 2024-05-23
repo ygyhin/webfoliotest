@@ -1,9 +1,13 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: #333;
     text-align: center;
     color: #fff;
     position: relative;
-    height: 40vh; /* Ensure the body has a height */
+    height: 38vh;
 }
 
 .header-background {
@@ -16,9 +20,12 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     filter: brightness(50%);
+
 }
 
 .header {
+    transform: scale(0.8);
+    transform-origin: top;
     position: absolute;
     z-index: 2;
     left: -10%;
@@ -26,73 +33,219 @@ body {
     font-size: 7em;
     text-decoration: underline;
     line-height: -50;
-    width:120%;
+    width: 120%;
     filter: brightness(90%);
 }
 
-
-
 .about {
+    transform: scale(0.7);
+    transform-origin: top;
     font-size: 3em;
     position: absolute;
     bottom: -220px;
-    left:50px;
+    left: -10px;
     text-decoration: underline;
     color: #B0E0E6;
-}
 
+
+}
 
 
 h3 {
-    font-size: 1.5em;
+    font-size: 1.4em;
     position: absolute;
     bottom: -280px;
-    left: 50px;
+    left: 30px;
     color: #ADD8E6;
 }
 
-
-
 ul {
+    transform: scale(0.9);
     font-size: 1.8em;
     position: absolute;
-    bottom: -680px;
+    bottom: -660px;
     left: 18px;
 }
 
-
-
-li:hover {
-    color: cyan;
-}
-
-li:last-child:hover {
-    color: #00ff00;
-
-}
-
 li {
+    margin-bottom: 50px;
+    margin-left: 5px;
+    text-align: left;
 
-     margin-bottom: 50px;
-     margin-left: 5px;
-     text-align: left;
+}
 
-    }
-
-.last{
+.last {
     color: #333;
 }
 
-.project{
-
-    font-size:3em;
+.school-section
+{
     position: absolute;
-    bottom: -220px;
-    right:70px;
-    text-decoration: underline;
-    color: #B0E0E6;
+    left: 0;
 
+}
+
+.interests-section
+{
+    position: absolute;
+    left: 0;
+}
+
+.favorite-subjects-section {
+    position: absolute;
+    left: 0;
+}
+
+
+.school-section {
+    bottom: -890px;
+}
+
+.interests-section {
+    bottom: -1090px;
+}
+
+.favorite-subjects-section {
+    bottom: -1290px;
+}
+
+
+ul li a[href="#school-section"]
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+ul li a[href="#interests-section"]
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+ul li a[href="#favorite-subjects-section"] {
+    color: green;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: cyan;
+}
+
+ul li:last-child:hover {
+    color: #00ff00;
+}
+
+
+
+.school-section h2{
+position: absolute;
+left: 10px;
+bottom: 20px;
+}
+
+.interests-section h2{
+position: absolute;
+left: 10px;
+bottom: 20px;
+}
+
+
+.favorite-subjects-section h2{
+position: absolute;
+left: 10px;
+bottom: 20px;
+}
+
+
+td {
+    padding-left: 8px; /
+}
+
+
+.school-image {
+position: absolute;
+left: 10px;
+bottom: -120px;
+width: 75%;
 
 
 }
 
+
+.project {
+    transform: scale(0.7);
+    transform-origin: top;
+    font-size: 3em;
+    position: absolute;
+    bottom: -220px;
+    right: 200px;
+    text-decoration: underline;
+    color: #B0E0E6;
+}
+
+
+.proj-text {
+    position: absolute;
+    bottom: -278px;
+    right: -1150px;
+
+
+}
+.test{
+     position: absolute;
+    bottom: -278px;
+    right: -1150px;
+
+    }
+
+
+.sch-link {
+position: absolute;
+left: 95px;
+bottom: 43px;
+color: #00ff00;
+text-decoration:none;
+white-space: nowrap;
+font-size: 1.2em;
+}
+
+sch-link:hover {
+color: blue;
+text-decoration:underline;
+
+}
+.chess{
+
+position: absolute;
+left: 5px;
+bottom: -50px;
+color: blue;
+text-decoration:none;
+white-space: nowrap;
+font-size: 1.2em;
+
+}
+
+
+.pokedex {
+
+     position: absolute;
+    bottom: -50px;
+    right: -1600px;
+
+color: #00ff00;
+text-decoration:none;
+white-space: nowrap;
+font-size: 1em;
+
+
+}
+
+.pokedex:hover {
+    color: yellow;
+    text-decoration: underline;
+
+}
